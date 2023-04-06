@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Today's Task</title>
+    <link rel="stylesheet" href="styles\style.css" />
+    <link rel="stylesheet" href="styles\todaystask.css" />
+    <link rel="stylesheet" href="styles/addnewtask.css" />
+    <link rel="stylesheet" href="fontawesome\css\all.min.css" />
+  </head>
+  <body>
+    <section class="wrapper">
+      <div class="top-bar">
+        <a class="pro-img" href="profile.html">
+          <img class="pro-img" src="image\user.jpg" alt="" />
+        </a>
+        <div class="name">
+          <h1>Add New Task</h1>
+        </div>
+      </div>
+
+      <section class="calendar">
+        <div class="calendar-wrapper">
+          <div class="written-date">
+            <i class="fa fa-angle-left"></i>
+            <p id="date-year">February 2022</p>
+            <i class="fa fa-angle-right"></i>
+          </div>
+
+          <div class="week-days">
+            <p>M</p>
+            <p>T</p>
+            <p>W</p>
+            <p>T</p>
+            <p>F</p>
+            <p>S</p>
+            <p>S</p>
+          </div>
+
+          <div class="week-dates">
+            <p>31</p>
+            <p>1</p>
+            <p>2</p>
+            <p>3</p>
+            <p>4</p>
+            <p>5</p>
+            <p>6</p>
+          </div>
+
+          <div class="week-dates hidden">
+            <p>7</p>
+            <p>8</p>
+            <p>9</p>
+            <p>10</p>
+            <p>11</p>
+            <p>12</p>
+            <p>13</p>
+          </div>
+
+          <div class="week-dates hidden">
+            <p>14</p>
+            <p>15</p>
+            <p>16</p>
+            <p>17</p>
+            <p>18</p>
+            <p>19</p>
+            <p>20</p>
+          </div>
+
+          <div class="week-dates hidden">
+            <p>21</p>
+            <p>22</p>
+            <p>23</p>
+            <p>24</p>
+            <p>25</p>
+            <p>26</p>
+            <p>27</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="new-task-info">
+        <form action="">
+          <h1 class="new-task-title task-title">Task title</h1>
+          <div class="task-input-container">
+            <input
+              type="text"
+              class="task-title-input"
+              placeholder="Website Design"
+            />
+            <button class="choose-icons"><i class="fa fa-icons"></i></button>
+          </div>
+          <h1 class="new-task-title task-type">Task type</h1>
+          <div class="task-type-choice">
+            <div class="important"><p>Important</p></div>
+            <div class="personal"><p>Personal</p></div>
+          </div>
+          <h1 class="new-task-title">Choose date and time</h1>
+          <div class="task-type-choice">
+            <div class="date important"><p>11-02-2022</p></div>
+            <div class="time personal"><p>9:00 AM-12:00 PM</p></div>
+          </div>
+          <div class="alert-checkbox">
+            <h1 class="new-task-title new-task-alert">
+              Get alert for this task
+            </h1>
+            <div class="slider-switch">
+              <label class="switch">
+                <input type="checkbox" />
+                <span class="slider round"></span>
+              </label>
+            </div>
+          </div>
+        </form>
+      </section>
+
+      <section class="new-task-done">
+        <button class="finally-done">Done</button>
+      </section>
+    </section>
+
+    <script src="scripts/calendar.js"></script>
+  </body>
+</html>

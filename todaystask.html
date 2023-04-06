@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Today's Task</title>
+    <link rel="stylesheet" href="styles\style.css" />
+    <link rel="stylesheet" href="styles\todaystask.css" />
+    <link rel="stylesheet" href="fontawesome\css\all.min.css" />
+  </head>
+  <body>
+    <section class="wrapper">
+      <div class="top-bar">
+        <a class="pro-img" href="profile.html">
+          <img class="pro-img" src="image\user.jpg" alt="" />
+        </a>
+        <div class="name">
+          <h1>Today's Task</h1>
+        </div>
+      </div>
+
+      <section class="calendar">
+        <div class="calendar-wrapper">
+          <div class="written-date">
+            <i class="fa fa-angle-left"></i>
+            <p id="date-year">February 2022</p>
+            <i class="fa fa-angle-right"></i>
+          </div>
+
+          <div class="week-days">
+            <p>M</p>
+            <p>T</p>
+            <p>W</p>
+            <p>T</p>
+            <p>F</p>
+            <p>S</p>
+            <p>S</p>
+          </div>
+
+          <div class="week-dates">
+            <p>31</p>
+            <p>1</p>
+            <p>2</p>
+            <p>3</p>
+            <p>4</p>
+            <p>5</p>
+            <p>6</p>
+          </div>
+
+          <div class="week-dates hidden">
+            <p>7</p>
+            <p>8</p>
+            <p>9</p>
+            <p>10</p>
+            <p>11</p>
+            <p>12</p>
+            <p>13</p>
+          </div>
+
+          <div class="week-dates hidden">
+            <p>14</p>
+            <p>15</p>
+            <p>16</p>
+            <p>17</p>
+            <p>18</p>
+            <p>19</p>
+            <p>20</p>
+          </div>
+
+          <div class="week-dates hidden">
+            <p>21</p>
+            <p>22</p>
+            <p>23</p>
+            <p>24</p>
+            <p>25</p>
+            <p>26</p>
+            <p>27</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="timeline">
+        <div class="menu">
+          <div class="pages all-menu">
+            <p>All</p>
+          </div>
+
+          <div class="pages ongoing-menu">
+            <p>Ongoing</p>
+          </div>
+
+          <div class="pages completed-menu">
+            <p>Completed</p>
+          </div>
+        </div>
+
+        <div class="event-card one">
+          <div class="card-description">
+            <div class="card-text">
+              <h1>Landing page design</h1>
+              <p><i class="fa fa-regular fa-clock"></i> 9 AM-10 AM</p>
+            </div>
+            <i class="fa fa-ellipsis-v"></i>
+          </div>
+
+          <div class="progress">
+            <div class="progress-bar">
+              <div class="bar one" style="width: 100%"></div>
+            </div>
+            <p>100%</p>
+          </div>
+        </div>
+
+        <div class="event-card two">
+          <div class="card-description">
+            <div class="card-text">
+              <h1>Landing page design</h1>
+              <p><i class="fa fa-regular fa-clock"></i> 9 AM-10 AM</p>
+            </div>
+            <i class="fa fa-ellipsis-v"></i>
+          </div>
+
+          <div class="progress">
+            <div class="progress-bar">
+              <div class="bar two" style="width: 55%"></div>
+            </div>
+            <p>55%</p>
+          </div>
+        </div>
+
+        <div class="event-card three">
+          <div class="card-description">
+            <div class="card-text">
+              <h1>Landing page design</h1>
+              <p><i class="fa fa-regular fa-clock"></i> 9 AM-10 AM</p>
+            </div>
+            <i class="fa fa-ellipsis-v"></i>
+          </div>
+
+          <div class="progress">
+            <div class="progress-bar">
+              <div class="bar three" style="width: 30%"></div>
+            </div>
+            <p>30%</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="lower-nav">
+        <a href="main.html">
+          <div class="nav-home">
+            <i class="fa fa-home"></i>
+          </div>
+        </a>
+
+        <a href="#0">
+          <div class="nav-today">
+            <i class="fa fa-regular fa-calendar-check"></i>
+          </div>
+        </a>
+
+        <a href="addnewtask.html">
+          <div class="add-task">
+            <i class="fa fa-plus"></i>
+          </div>
+        </a>
+
+        <a href="notification.html">
+          <div class="notification">
+            <i class="fa fa-regular fa-bell"></i>
+          </div>
+        </a>
+
+        <a href="profile.html">
+          <div class="settings">
+            <i class="fa fa-gear"></i>
+          </div>
+        </a>
+      </section>
+    </section>
+
+    <script src="scripts/calendar.js"></script>
+  </body>
+</html>

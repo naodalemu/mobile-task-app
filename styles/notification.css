@@ -1,0 +1,112 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+.top-bar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.well {
+    display: flex;
+    align-items: center;
+}
+
+.top-bar h1 {
+    font-size: 15px;
+}
+
+.pro-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    object-fit: cover;
+    background: #80808017;
+    position: absolute;
+    left: 0px;
+}
+
+.tasks {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.task-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.task-text h1 {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.task-text p {
+    font-size: 12px;
+    color: var(--primaryColor)
+}
+
+.upcoming-card {
+    border-radius: 10px;
+    display: flex;
+    padding: 10px 0px;
+}
+
+.upcoming-icon {
+    min-width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #55dde01f;
+    color: #33658ad1;
+    font-size: 25px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.horizontal-cards .upcoming-card:nth-child(1) .upcoming-icon{
+    color: var(--secondaryColor);
+    background: #f264190f;
+}
+
+.horizontal-cards .upcoming-card:nth-child(2) .upcoming-icon{
+    color: var(--primaryColor);
+    background: #55dde00f;
+}
+
+.horizontal-cards .upcoming-card:nth-child(3) .upcoming-icon{
+    color: var(--primaryDark);
+    background: #33658a0f;
+}
+
+.horizontal-cards .upcoming-card:nth-child(4) .upcoming-icon{
+    color: var(--secondaryColor);
+    background: #f264190f;
+}
+
+.upcoming-content h1 {
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.upcoming-content p {
+    font-size: 10px;
+}
+
+.notification {
+    color: var(--primaryColor);
+}
